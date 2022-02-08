@@ -23,11 +23,11 @@ def get_path() -> Path:
     return Path.home() / AWS_PATH
 
 
-def profile_reader() -> list:
+def profile_reader() -> set:
     """Read AWS profile."""
     config = configparser.ConfigParser()
     config.read(get_path() / AWS_CONFIG)
-    return config.sections()
+    return set(config.sections())
 
 
 def app() -> None:
