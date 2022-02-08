@@ -22,5 +22,8 @@ test = [
     "pytest-cov",
 ]
 
+[project.scripts]
+awsps = "awsps:app"
+
 [project.urls]
 Home = "https://github.com/cgtobi"

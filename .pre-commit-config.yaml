@@ -41,11 +41,11 @@ repos:
         exclude: (otp)
         additional_dependencies: [flake8-typing-imports==1.11.0]
 
-  - repo: local
-    hooks:
-    -   id: pylint
-        name: pylint
-        entry: pylint src tests
-        language: system
-        types: [python]
-        require_serial: true
+  # - repo: local
+  #   hooks:
+  #   -   id: pylint
+  #       name: pylint
+  #       entry: pylint src tests
+  #       language: system
+  #       types: [python]
+  #       require_serial: true
