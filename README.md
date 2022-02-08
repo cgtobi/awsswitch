@@ -1,0 +1,1 @@
+awsps - AWS profile switcher
