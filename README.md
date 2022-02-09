@@ -26,9 +26,19 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
 ## Setup
 
+### Install with pip
+
 ```sh
 python -m pip install awsswitch
 ```
+
+### Install with [pipx](https://github.com/pypa/pipx) *(recommended)*
+
+ ```sh
+pipx install awsswitch
+```
+
+### Shell configuration
 
 Add the following to your .bashrc or .zshrc config:
 ```sh
