@@ -15,9 +15,10 @@ def test_profile_reader(tmp_path):
     with open("fixtures/aws_config_sample", encoding="utf-8") as file:
         aws_config_file.write_text(file.read())
 
-    assert awsswitch.profile_reader(fake_get_path()) == set(
-        {"default", "work", "personal"}
+    assert awsswitch.profile_reader(fake_get_path()) == sorted(
+        ["default", "work", "personal"]
     )
+
     assert fake_get_path_called == 1
 
 
