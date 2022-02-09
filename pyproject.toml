@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "awsps"
+name = "awsswitch"
 authors = [{name = "Tobias Sauerwein", email = "cgtobi@gmail.com"}]
 license = {file = "LICENSE"}
 readme = "README.md"
@@ -23,7 +23,7 @@ test = [
 ]
 
 [project.scripts]
-awsps = "awsps:app"
+awsswitch = "awsswitch:app"
 
 [project.urls]
-Home = "https://github.com/cgtobi"
+Home = "https://github.com/cgtobi/awsswitch"

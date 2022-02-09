@@ -1,11 +1,11 @@
 {
-    "name": "awsps dev",
+    "name": "awsswitch dev",
     "context": "..",
     "dockerFile": "./Dockerfile.dev",
     "containerEnv": {
         "DEVCONTAINER": "1"
     },
-    "postCreateCommand": "FLIT_ROOT_INSTALL=1 flit install && pre-commit install && pre-commit run flake8",
+    "postCreateCommand": "FLIT_ROOT_INSTALL=1 flit install -s && pre-commit install && pre-commit run flake8",
     "runArgs": [
         "-e",
         "GIT_EDITOR=code --wait"
