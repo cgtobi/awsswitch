@@ -5,7 +5,7 @@ Easily switch between AWS Profiles
 
 ## Credits
 
-This is a python implementation of [Johnny Opao's](https://github.com/johnnyopao) tool [awsp](https://github.com/johnnyopao/awsp)
+This is a pure python implementation of [Johnny Opao's](https://github.com/johnnyopao) tool [awsp](https://github.com/johnnyopao/awsp)
 
 
 <img src="awsswitch_demo.gif" width="300">
