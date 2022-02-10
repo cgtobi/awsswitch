@@ -2,6 +2,8 @@
 
 Easily switch between AWS Profiles
 
+[![PyPi](https://img.shields.io/pypi/v/awsswitch.svg)](https://pypi.python.org/pypi/awsswitch)
+[![PyPi](https://img.shields.io/pypi/l/awsswitch.svg)](https://github.com/cgtobi/awsswitch/blob/master/LICENSE)
 
 ## Credits
 
