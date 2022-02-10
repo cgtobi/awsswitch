@@ -1,28 +1,29 @@
 # awsswitch - AWS profile switcher
 
-Easily switch between AWS Profiles
+Easily switch between AWS Profiles.
 
 [![PyPi](https://img.shields.io/pypi/v/awsswitch.svg)](https://pypi.python.org/pypi/awsswitch)
 [![PyPi](https://img.shields.io/pypi/l/awsswitch.svg)](https://github.com/cgtobi/awsswitch/blob/master/LICENSE)
 
 ## Credits
 
-This is a pure python implementation of [Johnny Opao's](https://github.com/johnnyopao) tool [awsp](https://github.com/johnnyopao/awsp)
+This is a pure python implementation of [Johnny Opao's](https://github.com/johnnyopao) tool [awsp](https://github.com/johnnyopao/awsp).
 
 
 <img src="awsswitch_demo.gif" width="300">
 
 
 ## Prerequisites
-Setup your profiles using the aws cli
+
+Setup your profiles using the aws cli.
 
 ```sh
 aws configure --profile PROFILE_NAME
 ```
 
-You can also leave out the `--profile PROFILE_NAME` param to set your `default` credentials
+You can also leave out the `--profile PROFILE_NAME` param to set your `default` credentials.
 
-Refer to this doc for more information
+Refer to this document for more information
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
 
