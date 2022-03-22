@@ -6,7 +6,7 @@ from pathlib import Path
 
 from InquirerPy import prompt
 
-__version__ = "0.2.1"
+__version__ = "0.2.2"
 
 
 DEFAULT_PROFILE = "default"
