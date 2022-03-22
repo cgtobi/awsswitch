@@ -2,10 +2,10 @@
 region=us-west-2
 output=json
 
-[personal]
+[profile personal]
 region=eu-central-1
 output=json
 
-[work]
+[profile work]
 region=ap-northeast-3
 output=json

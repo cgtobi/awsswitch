@@ -37,7 +37,10 @@ def profile_reader(path: Path) -> list:
     """Read AWS profile."""
     config = configparser.ConfigParser()
     config.read(path / AWS_CONFIG)
-    return sorted(config.sections())
+    return sorted(
+        " ".join(section.split(" ")[1:]) if "profile " in section else section
+        for section in config.sections()
+    )
 
 
 def set_profile(profile: str) -> None:
