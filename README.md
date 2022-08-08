@@ -48,6 +48,11 @@ Add the following to your .bashrc or .zshrc config:
 alias awsp='awsswitch; sp="$(cat ~/.awsswitch)"; if [ -z "$sp" ]; then unset AWS_PROFILE; else export AWS_PROFILE="$sp";fi'
 ```
 
+Or, in case `kubectl ctx` is used to switch cluster context:
+```sh
+alias awsp='awsswitch; sp="$(cat ~/.awsswitch)"; if [ -z "$sp" ]; then unset AWS_PROFILE; else export AWS_PROFILE="$sp" && k ctx $(k ctx | grep $(cat ~/.awsswitch));fi'
+```
+
 
 ## Usage
 ```sh
